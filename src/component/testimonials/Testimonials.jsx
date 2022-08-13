@@ -2,17 +2,16 @@ import React from 'react'
 import './testimonials.css'
 import IMG1 from '../../assets/me1.png'
 
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+
 
 const data = [
   {
@@ -38,14 +37,23 @@ const Testimonials = () => {
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
 
-      <Swiper className="container testimonials__container"
+      <Swiper 
+        className="container testimonials__container"
         // install Swiper modules
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
+
+        modules={[Autoplay, Navigation, Pagination]}
         spaceBetween={40}
         slidesPerView={1}
-        // navigation
         pagination={{ clickable: true }}
-        // scrollbar={{ draggable: true }}
+        centeredSlides={true}
+
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+
+        // navigation={true}
+        // scrollbar={{ draggable: true }}]
       >
 
         {

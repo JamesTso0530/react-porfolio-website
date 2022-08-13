@@ -1,6 +1,15 @@
 .container.testimonials__container {
     width: 40%;
-    padding-bottom: 4rem;
+    padding-bottom: 0.5rem;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: rgb(255, 255, 255);
+    /* background: red; */
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet-active {
+    background: var(--color-primary);
 }
 
 .client__avatar{
