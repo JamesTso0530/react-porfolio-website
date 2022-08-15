@@ -1,5 +1,5 @@
 header {
-    height: 90vh;
+    height: 98vh;
     padding-top: 7rem;
     overflow: hidden;
     /* background-color: red; */
@@ -25,9 +25,10 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 0.8rem ;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
+
+    position: fixed;
+    left: 5rem;
+    bottom: 1rem;
 }
 
 .header__socials::after {
@@ -40,20 +41,20 @@ header {
 /* ============ ME ============ */
 .me{
     background: linear-gradient(var(--color-primary), transparent);
-    width: 24rem;
-    height: 32rem;
+    width: 26rem;
+    height: 35.5rem;
     position: absolute;
-    left: calc(50% - 12rem);
+    left: calc(50% - 13rem);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 13rem 13rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* ============ SCROLL DOWN ============ */
 .scroll__down {
-    position: absolute;
-    right: -2.3rem;
+    position: fixed;
+    right: 4rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
@@ -61,16 +62,30 @@ header {
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     header {
-        height: 90vh;
+        height: 98vh;
+    }
+    .header__socials {
+        position: absolute;
+        left: 0rem;
+        bottom: 0rem;
+    }
+
+    .scroll__down {
+        position: absolute;
+        right: -2.3rem;
+        bottom: 3rem;
+        transform: rotate(90deg);
+        font-weight: 300;
+        font-size: 0.9rem;
     }
 }
 
 /* ============== MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px) {
     header {
-        height: 85vh;
+        height: 98vh;
     }
 
     .header__socials,

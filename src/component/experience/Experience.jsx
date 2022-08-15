@@ -12,58 +12,100 @@ const Experience = () => {
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
+
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>React</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>JavaScripe</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>HTML</h4>
-                <small className='text-light'>Experience</small>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
+
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experience</small>
+                <h4>CSS</h4>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experience</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experience</small>
-              </div>
-            </article>
+            
           </div>
         </div>
 
 {/* =================== END OF FRONTEND =====================*/}
 
         <div className="experience__backend">
-          <h3>Frontend Development</h3>
+          <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>HTML</h4>
+                <h4>Python</h4>
                 <small className='text-light'>Experience</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>HTML</h4>
+                <h4>Java</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>C++</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+          </div>
+        </div>
+
+{/* =================== END OF BACKEND =====================*/}
+
+        <div className="experience__backend">
+          <h3>Robotic Development</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Fusion360</h4>
+                <small className='text-light'>Experience</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>SolidWork</h4>
+                <small className='text-light'>Experience</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Arduino</h4>
                 <small className='text-light'>Experience</small>
               </div>
             </article>
           </div>
         </div>
+
       </div>
     </section>
   )

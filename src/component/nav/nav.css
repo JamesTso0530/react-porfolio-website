@@ -1,17 +1,26 @@
 nav {
-    background: rgb(0, 0 ,0, 0.3);
+    background: rgb(0, 0 ,0, 0.1);
     width: max-content;
-    display: block;
+    /* display: block; */
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
     bottom: 2rem;
-    display: flex;
+    /* display: flex; */
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    transition-timing-function: linear;
+    display:none;
+
+}
+
+.navbar-show {
+    transition-timing-function: linear;
+    display: flex;
+
 }
 
 nav a {
