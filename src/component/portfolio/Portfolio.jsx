@@ -37,7 +37,7 @@ const data = [
   {
     id: 3,
     image: IMG2,
-    title: 'Binary image segmentation of bird',
+    title: 'Binary image segmentation of bird by deep learning',
     github: 'https://github.com/JamesTso0530/Binary-Image-segmentation-of-bird',
     btn: 'Github',
     demo: '',

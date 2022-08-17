@@ -70,7 +70,7 @@ const About = () => {
               </article>
             </div>
             <div className="about__content-intro">
-              <p>
+              {/* <p>
                 Graduating first class honours in Information Engineering, an independent 
                 and self-motivated continuous learning graduate looking for an entry-level 
                 position where I can utilize the extensive knowledge I have gained during 
@@ -84,6 +84,23 @@ const About = () => {
                 My experience with Forida has also enabled me to be proficient 
                 in different programming, where I worked with IoT system, cloud deploying 
                 and website designing. 
+              </p> */}
+              <p>
+                While I lead the Robocon team as team head in 2022, I gain rich teamwork 
+                and leading experience. In the team, I lead 30+ people to follow the game 
+                rule and timeline to design and build the robots. Besides the leader work, 
+                I am the main designer of one robot in 2021 and 2022.
+              </p>
+              <p>
+                I have also worked in Forida limited as a summer intern. My FYP is the 
+                industrial project of Forida limited. It is about integrating an IoT system 
+                with BIM on a webpage demonstration. My experience with Forida has also 
+                enabled me to be proficient in different programming, where I worked with 
+                IoT systems, cloud deploying, and website designing.
+              </p>
+              <p>
+                As a fresh graduate of City University, I am really to work for the company 
+                and use my experience to contribute the team.
               </p>
             </div>
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
